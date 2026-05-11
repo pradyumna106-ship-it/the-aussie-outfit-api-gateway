@@ -40,14 +40,6 @@ app.use(
 );
 
 
-// BODY PARSER
-app.use(express.json());
-
-app.use(
-  express.urlencoded({
-    extended: true
-  })
-);
 
 
 // HEALTH CHECK
