@@ -19,7 +19,7 @@ app.use(morgan("dev"));
 // CORS
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://l3qmb7dl-5173.inc1.devtunnels.ms"],
 
     methods: [
       "GET",
