@@ -19,7 +19,7 @@ app.use(morgan("dev"));
 // CORS
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://l3qmb7dl-5173.inc1.devtunnels.ms"],
+    origin: ["http://localhost:5173","https://l3qmb7dl-5173.inc1.devtunnels.ms","https://the-aussie-outfit-frontend.vercel.app","https://the-aussie-outfit-frontend-git-main-j-pradyumnas-projects.vercel.app","https://the-aussie-outfit-frontend-q97gwu8m9-j-pradyumnas-projects.vercel.app"],
 
     methods: [
       "GET",
